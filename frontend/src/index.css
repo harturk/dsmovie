@@ -1,21 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 :root {
-  --color-primary: #4D41C0;
+  --color-primary: #4d41c0;
 }
 
 /* borderbox garante que o componente não ocupe espaço além do definido */
 * {
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-html, body {
-    background-color: #E8E8E8;
+html,
+body {
+  background-color: #e8e8e8;
 }
 
 /* sempre que haver um link, ele não será grifado */
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
   color: unset;
 }
